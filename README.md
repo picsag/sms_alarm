@@ -1,5 +1,5 @@
 # Arduino SMS Alarm
-SMS based motion alarm. It uses a PIR (Passive Infra Red) sensor to detect motion and when motion is detected, an SMS is sent to a predefined phone number.
+SMS Arduino based motion alarm. It uses a PIR (Passive Infra Red) sensor to detect motion and when motion is detected, an SMS is sent to a predefined phone number.
 
 The project uses SIM800L module for operating GSM / GPRS quad band 850/900/1800/1900 Mhz.
 

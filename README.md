@@ -5,7 +5,7 @@ The project uses SIM800L module for operating GSM / GPRS quad band 850/900/1800/
 
 The motion detection sensor acts as a digital output. Therefore, all is needed is to listen for the pin to flip high (motion detected) from low (not detected). An LED is connected to Arduino to visually observe when the PIR has detected motion.
 
-The project uses TinyGsmClient.h library to control the SIM800L module.
+The project uses TinyGsmClient.h library (available on GitHub) to control the SIM800L module.
 
 The pinout diagram for this project is listed below:
 

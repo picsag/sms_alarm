@@ -9,22 +9,22 @@ The pinout diagram for this project is listed below:
 
 Sensor Pin	    Arduino UNO pin
 -------------------------------
-SIM800L    |    TXD	11
+SIM800L       |    TXD	11
 
-SIM800L    |    RXD	10
+SIM800L       |    RXD	10
 
-SIM800L    |    GND	Arduino GND
+SIM800L       |    GND	Arduino GND
 
-SIM800L    |    VCC	Arduino +5V
+SIM800L       |    VCC	Arduino +5V
 
-PIR VCC	   |    Arduino +5V
+PIR VCC	      |    Arduino +5V
 
-PIR OUT	   |    2
+PIR OUT	      |    2
 
-PIR GND	   |    Arduino GND
+PIR GND	      |    Arduino GND
 
-LED +	     |    13
+LED +	        |    13
 
-LED -	     |    Arduino GND
+LED -	        |    Arduino GND
 
 More information on WWW.PICSAG.COM

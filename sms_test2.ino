@@ -2,7 +2,7 @@
 
 // Set serial for debug console (to the Serial Monitor, speed 115200)
 #define SerialMon Serial
-#define SMS_TARGET  "+40771733789"
+#define SMS_TARGET  "+407*******"
 #include <SoftwareSerial.h>
 SoftwareSerial SerialAT(11, 10); // RX, TX
 
@@ -51,7 +51,7 @@ void loop() {
     SerialAT.begin(rate);
     delay(3000);
   
-    modem.simUnlock("4746");
+    modem.simUnlock("0000");
 
     SerialMon.println("Waiting for network...");
     if (!modem.waitForNetwork()) {
@@ -66,9 +66,8 @@ void loop() {
   
     // Access AT commands from Serial Monitor
     SerialMon.println(F("***********************************************************"));
-    SerialMon.println(F(" You can now send AT commands"));
-    SerialMon.println(F(" Enter \"AT\" (without quotes), and you should see \"OK\""));
-    SerialMon.println(F(" If it doesn't work, select \"Both NL & CR\" in Serial Monitor"));
+    SerialMon.println(F(" SIM800L chip ready"));
+    SerialMon.println(F(" If SIM800L output not visible, select \"Both NL & CR\" in Serial Monitor"));
     SerialMon.println(F("***********************************************************"));
 
   }

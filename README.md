@@ -29,4 +29,4 @@ LED +	        ->    13
 
 LED -	        ->    Arduino GND
 
-More information on WWW.PICSAG.COM
+More information on WWW.RADCV.COM
